@@ -1,0 +1,20 @@
+<form [formGroup]="contactForm">
+    <div class="form-item">
+        <label for="full-name">Full Name:</label>
+        <input id="full-name" type="text" formControlName="fullName"/>
+    </div>
+    
+    <div class="form-item">
+        <label for="email">Email:</label>
+        <input id="email" type="email" formControlName="email"/>
+    </div>
+    
+    <div class="form-item">
+        <label for="message"> Message: </label>
+        <textarea id="message" type="text" formControlName="message"></textarea>
+    </div>
+    
+
+    <button mat-raised-button color="primary" id="submit" type="submit"> Send </button>
+
+</form>

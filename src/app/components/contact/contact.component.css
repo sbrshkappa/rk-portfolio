@@ -1,0 +1,36 @@
+.form-item {
+    margin: 1em;
+    display: flex;
+    align-self: center;
+}
+
+input {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+
+textarea {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+button {
+    margin-top: 2em;
+    align-self: center;
+    text-align: center;
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
